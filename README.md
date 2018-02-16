@@ -1,8 +1,10 @@
-Papert
+Papert-DE
 ====
 
-A logo interpreter in javascript, with turtle graphics, hosted on GAE http://logo.twentygototen.org
+Ein Logo-Interpreter mit deutschem Befehlssatz in Java-Script basierend auf Papert.
 
-Try a static, client-side-only demo at: http://rmmh.github.io/papert/static/
+Statischer Interpreter auf Github: https://github.com/reinertd/papert_de/static
 
-We have a mailing list for development discussion (not much): https://groups.google.com/group/papertlogo
+Das Projekt Papert ist im Github unter: http://rmmh.github.io/papert/static/
+
+Englische Mailingliste für Papert: https://groups.google.com/group/papertlogo
