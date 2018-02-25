@@ -79,20 +79,20 @@ Logo.prototype.addBuiltin = function(name,grab,aliases) {
 
 Logo.prototype.setup = function () {
 
-    this.addCommand('forward',1,['fw','fd'], function (a) { 
+    this.addCommand('vorwärts',1,['vw','v'], function (a) { 
         if (parseFloat(a[0]) != a[0]) return new Token('error','Can only go forward a number, not '+a[0])
         this.turtle.forward(parseFloat(a[0]));
     });
     
-    this.addCommand('backward',1,['bw','bk','back'], function (a) { 
+    this.addCommand('rückwärts',1,['rw','r','zurück'], function (a) { 
         if (parseFloat(a[0]) != a[0]) return new Token('error','Can only go backward a number, not '+a[0])
         this.turtle.backward(parseFloat(a[0]));
     });
-    this.addCommand('right',1,['rt'], function (a) { 
+    this.addCommand('rechts',1,['re'], function (a) { 
         if (parseFloat(a[0]) != a[0]) return new Token('error','Can only turn right a number of degrees, not '+a[0])
         this.turtle.right(a[0]);
     });
-    this.addCommand('left',1,['lt'], function (a) { 
+    this.addCommand('links',1,['li'], function (a) { 
         if (parseFloat(a[0]) != a[0]) return new Token('error','Can only turn left a number of degrees, not '+a[0])
         this.turtle.left(a[0]);
     });
